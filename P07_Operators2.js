@@ -51,13 +51,13 @@ console.log(b/=4); // 4
 
 let cinsiyet = 'E';
 let age = 60;
-if(cinsiyet.contains("E") && age >= 65){
+if(cinsiyet == 'E' && age >= 65){
     console.log("Emekli olabilirsiniz");
-} else if (cinsiyet.contains("E") && age < 65) {
+} else if (cinsiyet == 'E' && age < 65) {
     console.log("Emekli olabilmek icin " + (65 - age) + " yil daha calismalisiniz");
-} else if (cinsiyet.contains("K") && age >= 60) {
+} else if (cinsiyet == 'K' && age >= 60) {
     console.log("Emekli olabilirsiniz");
-}else if (cinsiyet.contains("K") && age < 60) {
+}else if (cinsiyet == 'K' && age < 60) {
     console.log("Emekli olabilmek icin " + (60 - age) + " yil daha calismalisiniz");
 } else {
     console.log("Gecersiz giris");
