@@ -8,7 +8,7 @@ const ile olusturulan variable'lara atanan deger degistirilemez
 let firstName = "Murat" //String
 var lastName = "Yiğit" // String
 let age = 44 //numbers
-const idNumber = 23456 // DEğiştirilemez data tipi
+const idNumber = 23456 // Değiştirilemez data tipi
 
 console.log("Adı: " + firstName)
 console.log('Soyadı: ' + lastName)

@@ -42,4 +42,4 @@ console.log('typeof bool2: ' + typeof bool2)
 let bool3 = true
 let num2 = Number(bool3)
 
-console.log(num2);
+console.log(num2); // true ise 1 false ise 0 döndürür
